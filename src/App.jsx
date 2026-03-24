@@ -96,7 +96,7 @@ function App() {
 const styles = {
   container: {
     fontFamily: "Arial, sans-serif",
-    background: "#fff0f5", 
+    background: "#d69ddd", 
     color: "#4a4a4a",
   },
   navbar: {
