@@ -41,7 +41,7 @@ function App() {
           </div>
         </section>
         <section id="skills" style={{ ...styles.section, ...styles.sectionAlt }}>
-          <h2>💻 Skills</h2>
+          <h2 style={{color: "#000000"}}>💻 Skills</h2>
           <div style={styles.card}>
             <h3>Programming Languages</h3>
             <ul>
@@ -61,7 +61,7 @@ function App() {
         </section>
 
         <section id="projects" style={styles.section}>
-          <h2>📂 Projects</h2>
+          <h2 style={{color: "#000000"}}>📂 Projects</h2>
           <div style={styles.projectCard}>
             <h3>Student Management System</h3>
             <p>A web app that manages student records.</p>
@@ -72,7 +72,7 @@ function App() {
 
 
         <section id="reflection" style={{ ...styles.section, ...styles.sectionAlt }}>
-          <h2>🧠 Reflection</h2>
+          <h2 style={{color: "#000000"}}>🧠 Reflection</h2>
           <div style={styles.card}>
             <p>
               During my studies, I gained a solid understanding of both frontend and backend development. Working with React.js taught me how to create reusable components and manage dynamic user interfaces effectively.
