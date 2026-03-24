@@ -2,7 +2,7 @@ function App() {
   return (
     <div style={styles.container}>
       <nav style={styles.navbar}>
-        <h2>My Portfolio</h2>
+        <h2  style={{color: "#79a0f5"}}>©My Portfolio</h2>
         <ul style={styles.navLinks}>
           <li><a href="#home">Home</a></li>
           <li><a href="#skills">Skills</a></li>
@@ -12,16 +12,16 @@ function App() {
       </nav>
 
       <main style={styles.main}>
-       
+      <img src="./unnamed(1).jpg" alt="" />
         <section id="home" style={styles.section}>
-          <h1>WELCOME</h1>
+          <h1 style={{color: "#000000"}}>WELCOME</h1>
           <h1><span style={styles.highlight}>Rizza Jane Belen</span></h1>
           <p>20 years old | October 05, 2005 | Bachelor of Science in Information Technology</p>
 
           <div style={styles.card}>
             <h3>ABOUT ME</h3>
             <ul>
-              <li>I believe that every experience,big or small,is opportunity to grow into a better person. I am a currently a 3rd year students and am studying in information technology,My hobbies is watching kdrama,tiktok and I love hiking,I have a big interest in education.</li>
+          I believe that every experience,big or small,is opportunity to grow into a better person. I am a currently a 3rd year students and am studying in information technology,My hobbies is watching kdrama,tiktok and I love hiking,I have a big interest in education.
              
             </ul>
           </div>
@@ -47,7 +47,7 @@ function App() {
             <ul>
               <li>JavaScript</li>
               <li>HTML & CSS</li>
-               <li>PHP</li>
+              
             </ul>
           </div>
           <div style={styles.card}>
@@ -92,11 +92,10 @@ function App() {
     </div>
   );
 }
-
 const styles = {
   container: {
     fontFamily: "Arial, sans-serif",
-    background: "#d69ddd", 
+    background: "#ead3fd", 
     color: "#4a4a4a",
   },
   navbar: {
@@ -133,7 +132,7 @@ const styles = {
     marginBottom: "40px",
   },
   highlight: {
-    color: "#ff69b4", 
+    color: "#000000", 
   },
   card: {
     background: "#fff0f5", 
